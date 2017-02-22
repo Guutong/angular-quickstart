@@ -1,0 +1,19 @@
+.main-term {
+    color: #fff;
+    /*border: 2px solid #a1a1a1;
+    padding: 10px;
+    width: 800px;
+    border-radius: 5px;*/
+}
+
+.head-term {
+    margin-bottom: 40px;
+}
+
+.terminal-input {
+    vertical-align: bottom;
+    opacity: 0;
+    color: transparent;
+    height: 0px;
+    width: 0px;
+}

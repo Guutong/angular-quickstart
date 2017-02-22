@@ -1,0 +1,4 @@
+<div class="main-term" (click)="termClick($event)">
+    <div #showText></div>
+    {{userHome}}<input #textInput type='text' class="terminal-input" (keyup)="onKey($event)" [value]="textCommand" (input)="textCommand = $event.target.value">{{textCommand}}<span #cursor class="cursor"></span>
+</div>
